@@ -114,7 +114,7 @@
                     <div class="content">
                         <div class="image"><img src= "https://images.pexels.com/photos/18035417/pexels-photo-18035417/free-photo-of-gun-batimi-seyahat-yolculuk-altin-saat.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  alt="İstanbul Boğazı">
                         <div class="image-baslik">
-                                    <h3>İstanbul Boğazı </h3>
+                                    <h3>İstanbul Boğazı::::</h3>
                                         <div class="image-aciklama"><p>İstanbul Boğazı, Türkiye'nin İstanbul şehrinde bulunan ve Avrupa ile Asya'yı birbirinden ayıran, tarih boyunca stratejik öneme sahip olan bir su yoludur. Boğaz, Marmara Denizi'ni Karadeniz'le birleştirir ve yaklaşık 30 kilometre uzunluğundadır. Tarihi boyunca ticaretin ve kültürel etkileşimin önemli bir merkezi olmuştur. Üzerinde köprüler ve deniz trafiği için önemli bir rota olan İstanbul Boğazı, şehrin sembollerinden biridir ve ziyaretçiler için muhteşem manzaralar sunar.<a href="istanbulbogazi.blade.php" class="devam-link">Devamı...</a></p></div>
                             </div> 
                     </div>
