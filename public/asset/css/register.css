@@ -1,0 +1,317 @@
+
+/* Genel sayfa stil ayarları */
+body {
+    background: rgb(102,189,207); /* Arka plan rengi */
+    background: linear-gradient(90deg, rgba(102,189,207,1) 0%, rgba(159,159,204,1) 34%, rgba(109,102,210,1) 63%, rgba(104,98,226,1) 85%); /* Arka plan lineer gradyan */
+}
+
+/* Sosyal medya ikonlarının boyut ve aralıkları */
+.social-media ul li a {
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+/* Üst menü ve içeriklerin hizalaması */
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Üst menü tasarımı */
+.header {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #cccccc30;
+    background: rgb(102,189,207);
+    background: linear-gradient(90deg, rgba(102,189,207,1) 0%, rgba(159,159,204,1) 34%, rgba(109,102,210,1) 63%, rgba(104,98,226,1) 85%);
+}
+
+/* Ana menü öğeleri */
+.menu ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    font-weight: bold;
+}
+
+/* Ana menü linkleri */
+.menu ul li a {
+    padding: 5px 10px;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+}
+
+/* Ana menü linkleri üzerine gelindiğinde renk değişimi */
+.menu ul li a:hover {
+    background-color: rgb(151, 144, 144);
+    color: #fff;
+}
+
+/* Sosyal medya ikonları */
+.fa-instagram {
+    color: rgb(225, 130, 226);
+    color: linear-gradient(90deg, rgba(205,102,207,1) 0%, rgba(214,97,141,1) 21%, rgba(232,27,76,1) 63%, rgba(223,35,115,1) 85%);
+    margin-right: 15px;
+}
+
+.fa-twitter {
+    color: black;
+    margin-right: 15px;
+}
+
+.fa-facebook {
+    color: rgb(15, 15, 231);
+    margin-right: 15px;
+}
+
+/* Sosyal medya ikonlarının konteynırı */
+.social-media ul {
+    display: flex;
+    list-style: none;
+}
+
+/* İçerik kutusunun genel stil ayarları */
+.list .container .content {
+    width: 100%;
+    height: 100%;
+    background: rgb(102,189,207);
+    background: linear-gradient(90deg, rgba(102,189,207,1) 0%, rgba(159,159,204,1) 34%, rgba(109,102,210,1) 63%, rgba(104,98,226,1) 85%);
+    border-radius: 10px;
+    margin-top: 40px;
+    display: block;
+}
+
+/* İçerik resimleri ve açıklamalarının hizalanması */
+.list .container .content .image {
+    display: flex;
+    align-items: center;
+}
+
+/* İçerik resimlerinin stil ayarları */
+.list .container .content .image img {
+    border-radius: 10%;
+    height: auto;
+    margin-bottom: 2px;
+    margin-left: 5px;
+    width: 200px;
+    height: 190px;
+    display: flex;
+    align-items: center;
+}
+
+/* Başlık ve açıklamanın hizalanması */
+.list .container .content .image-baslik {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+    margin-bottom: 7%;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Açıklama stil ayarları */
+.image-aciklama {
+    display: flex;
+    flex-direction: column;
+    margin-top: 3px;
+}
+
+/* "Devamı..." linki stil ayarları */
+.devam-link {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* "Devamı..." linkine fare ile üzerine gelindiğinde stil ayarları */
+.devam-link:hover {
+    text-decoration: underline;
+}
+
+.container3 form 
+{
+    input[type="text"],
+    input[type="name"],
+    input[type="email"],
+    input[type="password"],
+    textarea {
+    width: 50%; /* Form öğelerini genişletmek için genişlik ayarı */
+    padding: 10px; /* Form öğelerinin iç boşluğu */
+    margin-bottom: 10px; /* Form öğeleri arasındaki boşluk */
+    box-sizing: border-box; /* Padding ve border'ı içeriye dahil etmek için */
+    border: 1px solid #ccc; /* Form öğelerinin kenarlık rengi ve kalınlığı */
+    border-radius: 5px; /* Form öğelerinin kenar yuvarlaklığı */
+    resize: vertical; /* Metin alanlarının dikey boyutunu değiştirebilir hale getirme */
+    margin-top: 35px;
+    display: grid;
+}
+}
+
+
+
+
+
+
+
+/*
+body{
+    background: rgb(102,189,207);
+    background: linear-gradient(90deg, rgba(102,189,207,1) 0%, rgba(159,159,204,1) 34%, rgba(109,102,210,1) 63%, rgba(104,98,226,1) 85%);
+}
+.social-media ul li a 
+{
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+
+.header-content
+{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.header
+{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #cccccc30;
+    background: rgb(102,189,207);
+    background: linear-gradient(90deg, rgba(102,189,207,1) 0%, rgba(159,159,204,1) 34%, rgba(109,102,210,1) 63%, rgba(104,98,226,1) 85%);
+}
+
+.menu ul
+{
+    display: flex;
+    list-style: none;
+    padding: 0;
+   /* margin-left: 130%;
+   font-weight: bold;
+}
+
+.menu ul li{
+   /* border:1px solid red;*/   /*menülerin etrafına kırmızı kutu ekler 
+     
+}
+
+/*Chat gpt ye siteyi responsive hale getirmeyi sordum aşağıdaki kodu verdi
+@media only screen and (max-width: 768px) {
+    .menu ul {
+        margin-left: 0;
+        justify-content: center;
+    }
+    .menu ul li {
+        margin: 0 10px;
+    }
+}
+
+.menu ul li a
+{
+    padding:5px 10px;
+    display: block;
+    font-size: 15px; ;
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(151, 144, 144);  /*  menü üstüne geldiğinde rengi değişir
+    color:#fff;
+}
+.fa-instagram
+{
+    color: rgb(225, 130, 226);
+    color: linear-gradient(90deg, rgba(205,102,207,1) 0%, rgba(214,97,141,1) 21%, rgba(232,27,76,1) 63%, rgba(223,35,115,1) 85%);
+    margin-right: 15px;
+}
+.fa-twitter
+{
+    color: black;
+    margin-right: 15px;
+}
+
+.fa-facebook
+{
+    color:rgb(15, 15, 231);
+    margin-right: 15px;
+}
+
+.social-media ul
+{
+    display:flex;
+    list-style: none;
+}
+.list .container .content
+{
+  /*width: 1350px; /* Genişlik */
+  /*height: 170px; /* Yükseklik 
+  
+  width: 100%; /* Genişlik 
+  height: 100%; /* Yükseklik 
+  
+  /* background: rgb(0,212,255);
+  background: rgb(0,212,255); 
+  background: rgb(102,189,207);
+  background: linear-gradient(90deg, rgba(102,189,207,1) 0%, rgba(159,159,204,1) 34%, rgba(109,102,210,1) 63%, rgba(104,98,226,1) 85%);  border-radius: 10px; /* Kenar yuvarlaklığı 
+  margin-top: 40px;
+  display: block;
+}
+
+.list .container .content .image {
+    display: flex; /* Resim ve açıklama/başlık yatayda hizalansın 
+    align-items: center; /* Dikeyde hizalama 
+}
+
+.list .container .content .image img {
+    border-radius: 10%; /* Resmin kenarlarını oval yap 
+    height: auto; /*Oranları koru */
+    /* margin-top: 5px; 
+    margin-bottom: 2px;
+    margin-left: 5px;
+   
+    width: 200px; /* İstenilen genişlik 
+    height: 190px; /* İstenilen yükseklik 
+   
+    display: flex; /* Resim ve açıklamayı yatayda hizala 
+    align-items: center;/*Dikeyde hizalama
+}
+.list .container .content .image-baslik {
+    display: inline-block; /*Açıklamayı inline element olarak ayarla 
+    margin-left: 10px; /* Açıklama ile resim arasındaki boşluğu ayarla 
+    vertical-align: top; /* Açıklamanın üstte hizalanmasını sağla 
+    margin-bottom: 7%;
+    margin-top: 1%;
+
+    display: flex; /* Açıklamayı ve başlığı yatayda hizala 
+    flex-direction: column; /* Dikey olarak sırala 
+}
+ .image-aciklama
+{
+   display: flex; /* Açıklamayı ve başlığı yatayda hizala 
+   flex-direction: column; /* Dikey olarak sırala 
+   margin-top: 3px;
+} 
+.list .container .content .image-baslik-efes {
+    display: inline-block; /*Açıklamayı inline element olarak ayarla 
+    margin-left: 10px; /* Açıklama ile resim arasındaki boşluğu ayarla 
+    vertical-align: top; /* Açıklamanın üstte hizalanmasını sağla 
+    margin-bottom: 7%;
+    margin-top: 3%;
+
+    display: flex; /* Açıklamayı ve başlığı yatayda hizala 
+    flex-direction: column; /* Dikey olarak sırala 
+}
+.devam-link {
+    color: black; /* Link rengi 
+    text-decoration: none; /* Altı çizgiyi kaldır 
+    font-weight: bold;
+}
+
+.devam-link:hover {
+    text-decoration: underline; /* Fare üstüne geldiğinde altı çizgi ekle 
+}
+
