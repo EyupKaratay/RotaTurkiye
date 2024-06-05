@@ -87,7 +87,7 @@
                 <div class="image">
                     <img src="https://images.pexels.com/photos/10309102/pexels-photo-10309102.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Ayasofya">
                     <div class="image-baslik">
-                        <h3>Ayasofya </h3>
+                        <h3>Ayasofya Camii</h3>
                         <div class="image-aciklama">
                             <p>6.yüzyılda Bizans İmparatoru I. Justinianus tarafından inşa ettirilen Ayasofya, uzun yıllar boyunca Doğu Ortodoks Kilisesi olarak hizmet vermiştir. Orijinal yapının mimari detayları ve etkileyici kubbesi, mimarlık tarihinde dönüm noktası olarak kabul edilir.<a href="ayasofya.blade.php" class="devam-link">Devamı...</a></p>
                         </div>
