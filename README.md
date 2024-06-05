@@ -1,6 +1,19 @@
 <<<<<<< HEAD
 # RotaTurkiye
 Gezilecek yerler öneren web sitesi
+Projem de gezmek isteyen ancak karar veremeyen kullanıcılara yardımcı olmayı amaçlıyorum. Kullanıcılara gezilecek yerlerle ilgili resim , yer içeriği ve harita bilgisi sunuyorum.
+Projemi geliştirmeyi düşünüyorum. Geliştirmeyi düşündüğüm noktalar : Kategorileri ve yer önerilerini çoğaltmayı hedefliyorum ayrıca kullanıcılara register ve login işlemleri yaptırarak 
+yerlere yorum yapma imkanı sunmayı hedefliyorum . 
+Kullandığım diller,
+Front-end:HTML , CSS , JavaScript 
+Back-end:Laravel
+Veri-tabanı:Mysql
+Register ve Login işlemleri için kullandığım hazır paket: Jetstream , (sorun çıkaran bir paket)
+Projeye bakmak isteyenlerin yapması gerekenler:
+Proje dosyası Xampp'de htdocs dosyasına atılmalı , Xampp'de apache ve mysql çalıştırılmalı 
+Daha sonra Ide ' de command prompt açılmalı ve sırasıyla :  composer update , npm install , npm run dev , php artisan serve(localhost'a yönlendiren URL vercek buna girilmeli) , 
+php artisan migrate komutları çalıştırılmalı .
+Dediğim gibi register ve login paketi sorunlu , eğer kullanıcı giriş yap butonuna basınca yönlendiği yerdeki yapı bozuksa şu komutları tekrarlamalı: npm run dev , php artisan serve
 =======
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
